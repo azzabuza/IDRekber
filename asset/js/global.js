@@ -19,7 +19,7 @@ footer.innerHTML = result;
 });
 
 // WEBSITE TAKEDOWN
-var deadLine = new Date('2026-01-01');
+var deadLine = new Date('2024-01-01');
 var currentDate = new Date();
 var timeDifference = deadLine - currentDate;
 
