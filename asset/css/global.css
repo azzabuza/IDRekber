@@ -1111,6 +1111,42 @@ margin:0;
 color:#ffffff;
 font-weight:600;
 }
+/* TAKEDOWN */
+.expired{
+box-sizing:border-box;
+padding:20px;
+margin:0;
+z-index:6;
+position:fixed;
+width:100%;
+bottom:0;
+}
+.expired-content{
+box-sizing:border-box;
+max-width:1200px;
+background-color:#b22222;
+padding:10px;
+margin:0 auto;
+position:relative;
+border-radius:20px;
+}
+.expired-content h3{
+color:#ffffff;
+font-size:16px;
+font-weight:600;
+padding:0;
+margin:0 0 10px 0;
+}
+.expired-content p{
+color:#ffffff;
+font-size:15px;
+font-weight:400;
+padding:0;
+margin:0;
+}
+#countdown{
+font-weight:700;
+}
 @media only screen and (max-width:800px){
 .header-menu{
 display:none;
