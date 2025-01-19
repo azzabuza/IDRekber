@@ -46,5 +46,5 @@ clearInterval(countdownInterval);
 window.location.href = 'https://www.instagram.com/azzabuza';
 }
 }, 1000);
-}, 5000);
+}, 10000);
 }
