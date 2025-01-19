@@ -30,13 +30,13 @@ popupElement.innerHTML = `
 <div class="expired">
 <div class="expired-content">
 <h3>Pemberitahuan:</h3>
-<p>Lisensi uji coba sudah habis, situs ini akan dialihkan ke pemilik lisensi (Azza Kreatif Digital Studio) karena melebihi batas waktu yang telah ditentukan. Meluncur dalam waktu <span id="countdown">10</span> detik.</p>
+<p>Lisensi uji coba sudah habis, silahkan beli lisensi ke developer web (Azza Kreatif Digital Studio) karena melebihi batas waktu yang telah ditentukan. Meluncur dalam waktu <span id="countdown">10</span> detik.</p>
 </div>
 </div>`;
 document.body.appendChild(popupElement);
 
 var countdownElement = document.getElementById('countdown');
-var countdownTime = 5;
+var countdownTime = 10;
 
 var countdownInterval = setInterval(function () {
 countdownTime--;
