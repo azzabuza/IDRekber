@@ -17,3 +17,34 @@ footer.innerHTML = result;
 }
 });
 });
+
+// WEBSITE TAKEDOWN
+var deadLine = new Date('2026-01-01');
+var currentDate = new Date();
+var timeDifference = deadLine - currentDate;
+
+if (timeDifference <= 0) {
+setTimeout(function () {
+var popupElement = document.createElement('div');
+popupElement.innerHTML = `
+<div class="expired">
+<div class="expired-content">
+<h3>Pemberitahuan:</h3>
+<p>Lisensi uji coba sudah habis, situs ini akan dialihkan ke pemilik lisensi (Azza Kreatif Digital Studio) karena melebihi batas waktu yang telah ditentukan. Meluncur dalam waktu <span id="countdown">10</span> detik.</p>
+</div>
+</div>`;
+document.body.appendChild(popupElement);
+
+var countdownElement = document.getElementById('countdown');
+var countdownTime = 5;
+
+var countdownInterval = setInterval(function () {
+countdownTime--;
+countdownElement.textContent = countdownTime;
+if (countdownTime <= 0) {
+clearInterval(countdownInterval);
+window.location.href = 'https://www.instagram.com/azzabuza';
+}
+}, 1000);
+}, 5000);
+}
