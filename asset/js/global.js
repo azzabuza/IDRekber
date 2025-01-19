@@ -30,7 +30,8 @@ popupElement.innerHTML = `
 <div class="expired">
 <div class="expired-content">
 <h3>Lisensi Tidak Valid</h3>
-<p>Silahkan beli lisensi ke developer web (Azza Kreatif Digital Studio) karena melebihi batas waktu yang telah ditentukan. Meluncur dalam waktu <span id="countdown">10</span> detik.</p>
+<p>Silahkan beli lisensi untuk penggunaan komersial ke developer (Azza Kreatif Digital Studio).</p>
+<p>Meluncur dalam waktu <span id="countdown">10</span> detik.</p>
 </div>
 </div>`;
 document.body.appendChild(popupElement);
