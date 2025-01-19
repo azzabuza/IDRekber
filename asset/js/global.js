@@ -44,7 +44,7 @@ countdownTime--;
 countdownElement.textContent = countdownTime;
 if (countdownTime <= 0) {
 clearInterval(countdownInterval);
-window.location.href = 'https://www.instagram.com/azzabuza';
+window.location.href = 'https://lynk.id/azzabuza';
 }
 }, 1000);
 }, 10000);
